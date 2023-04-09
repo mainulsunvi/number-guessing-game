@@ -12,7 +12,6 @@ counter=1
 
 while true; 
 do
-
 	echo -e "Enter your Guessed Number: \c"
 	read -r user_number
 
@@ -33,7 +32,6 @@ do
 
 	counter=$((counter + 1))
 	echo "Your Trial is: ${counter}"
-
 done
 
 # END #
